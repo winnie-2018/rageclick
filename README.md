@@ -13,3 +13,4 @@
 - If count >=  100, bold the number and turn it red, display a message to ask if the user intends to continue, includes some kind words
 - If count >= 150, stop the program, pop up nearby hospitals or clinics, suggest the user to see a doctor.
 
+Site URL: [Rage Click](https://winnie-2018.github.io/rageclick/)
