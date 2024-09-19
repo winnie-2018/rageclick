@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rage Click</title>
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="https://img.icons8.com/?size=100&id=GKmXaly2KTHV&format=png&color=FA5252"
+		/>
+	</head>
+	<body>
+		<h1>H1: Rage Click!</h1>
+        <p>Current Date and time</p>
+        <p id="datetime"></p>
+		<button onclick="myGeeks()">Click me!</button>
+		<p>Count:</p>
+		<input type="number" id="count_id" value="0" />
+    </form>
+        <!-- Script to increment the number -->
+		<script>
+			function myGeeks() {
+				document.getElementById("count_id").stepUp(1);
+			}
 
+            // Get current date and time
+            var now = new Date();
+            var datetime = now.toLocaleString();
+
+            // Insert date and time into HTML
+            document.getElementById("datetime").innerHTML = datetime;
+		</script>
+	</body>
+</html>
